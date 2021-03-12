@@ -1035,7 +1035,7 @@ Blog Template
   padding: 1rem 1.5rem;
   border-radius: var(--radius);
 }
-.blog-template img {
+.blog-template p img {
   width: 15rem;
   height: 15rem;
   margin: 3rem 0;

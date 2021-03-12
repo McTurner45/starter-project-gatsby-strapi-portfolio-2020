@@ -1,7 +1,10 @@
 import React from "react"
 
-const Title = () => {
-  return <h2>title component</h2>
+const Title = ({tittle}) => {
+  return <div className="section-title">
+    <h1>{tittle || "default tittle"}</h1>
+    <div className="underline"></div>
+  </div>
 }
 
 export default Title
